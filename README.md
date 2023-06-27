@@ -10,14 +10,14 @@
 
 
 <div align="center">
-    <img src="Screenshot 2023-06-28 085458.png" width="400px"</img> 
+    <img src="Screenshot 2023-06-28 085458.png" width="1200px"</img> 
 </div>
 
 <div align="center">
-    <img src="Screenshot 2023-06-28 085727.png" width="400px"</img> 
+    <img src="Screenshot 2023-06-28 085727.png" width="1200px"</img> 
 </div>
 <div align="center">
-    <img src="Screenshot 2023-06-28 085631.png" width="400px"</img> 
+    <img src="Screenshot 2023-06-28 085631.png" width="1200px"</img> 
 </div>
 
 
