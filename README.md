@@ -12,9 +12,9 @@
 
 
 
-![Screenshot](./Screenshot 2023-06-28 085458.png)
-![Screenshot](Screenshot 2023-06-28 085631.png)
-![Screenshot](Screenshot 2023-06-28 085727.png)
+![ScreenShot](Screenshot 2023-06-28 085458.png)
+![ScreenShot](Screenshot 2023-06-28 085631.png)
+![ScreenShot](Screenshot 2023-06-28 085727.png)
 
 
 
