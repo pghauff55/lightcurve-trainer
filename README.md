@@ -1,2 +1,2 @@
-# lightcurve-traner
+# lightcurve-trainer
 Lightcurve parameter extimator
