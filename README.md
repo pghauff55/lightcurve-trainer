@@ -1,2 +1,2 @@
 # lightcurve-trainer
-Lightcurve parameter extimator
+A tensorflow neural network Lightcurve parameter estimator.
