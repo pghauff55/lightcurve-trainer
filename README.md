@@ -1,14 +1,42 @@
-
-
-
-
-
-
-
 # neuralnetwork-lightcurve-param-estimator
 
 P. Hauff
 Version 1.0
+
+
+
+
+# Parameters
+Eccentricity1
+Eccentricity2
+Phase
+Amplitude
+[Amplitude,e1,e2,phase]
+
+# 5.3 Elliptical Orbit Equation
+Elliptical orbits are calculated using the Elliptical Orbit Equation which consists of two components, the radius of the orbit vector, r(θ(t)) see Figure 10 (Carroll B., 2017) Figure 11 (Carroll B., 2017)and Figure 12 (Carroll B., 2017), and the eccentricity of the orbit. The radius, r(θ(t)), is the distance from the focus to the orbit at any given time. The eccentricity of the orbit is a measure of the difference between the furthest and closest points in an orbit from the focus. With these components, the equation can accurately calculate the distance and velocities of any orbiting body. It can also be utilised to calculate the difference between the radii of two elliptical orbits, r2(t)-r1(t-t_offset). Python code was utilised to calculate this equation, which can be used across many types of pulsating stars, such as high amplitude delta Scuti (HADS). For example, it can be utilised to calculate the apparent magnitude, period, distance calculation of Cephids, as well as classify stars, such as EH Lib, as a double radial pulsator. 
+# 5.3.1 Radius of Orbit
+The radius of elliptical orbits is used to measure the dimensions of orbits of stars. Through the equations, Figure 13, Figure 14, and Figure 15 (Carroll B., 2017) and python code of the EllipseEquation class (see Appendix for Python Code). This class uses the parameter of eccentricity and the parameter of the semi-major axis. This code also allows for the calculation of the velocity of a star’s orbit, as well as the distance from the focus of the star’s orbit. Once the parameters of the orbit are known, the code can be used to calculate the radius of the elliptical orbit with respect to time.
+ 
+Figure 10 (Carroll B., 2017)
+ 
+Figure 11 (Carroll B., 2017)
+ 
+Figure 12 (Carroll B., 2017)
+
+
+# 5.3.2 Eccentricity
+The eccentricity of elliptical orbits is an interesting phenomenon that can be studied using the Python code provided in the reference Figure 13. This code can help to calculate the orbital parameters for a given planetary system, including the eccentricity of the orbit. Eccentricity is defined as the ratio of the distance between the furthest points of the orbit and the closest points. Eccentricity influences the shape and size of the orbits. The eccentricity of a given orbit varies between 0 and 1, where 0 indicates a circular orbit, and 1 indicates a highly eccentric orbit.
+ 
+Figure 13 Plot of the Ellipitical  Orbits
+# 5.4 Differences of Radii of Two Out-of-phase Elliptical Orbits
+The difference in radii of two out-of-phase elliptical orbits can be accurately calculated using Python code. The equation for the radius of an elliptical orbit as a function of time is used to calculate the difference in radii of two orbits with different eccentricities. The semimajor axis, eccentricity, and mass of each orbit are used to calculate the radius of each orbit at a given time, and the difference of radii is then obtained. The code plots the difference in radius of the two orbits as a function of time, which can be used to investigate the relationship between the radii of the two orbits. This relationship is significant for its usefulness in understanding the structure of high-amplitude delta Scuti stars and other pulsating variables. 
+ 
+Figure 14 O-C plot
+In conclusion, the data from the light curve of EH Lib observations shows a near 99.6% match, with the calculations of Differences of Radii of Two Out-of-phase Elliptical Orbits. The use of python code through the elliptical orbit equation, has allowed for a more comprehensive understanding of EH Lib and its characteristics.
+
+
+# jupyter notebook
 
 <div align="center">
     <img src="Screenshot 2023-06-28 085458.png" width="1200px"</img> 
