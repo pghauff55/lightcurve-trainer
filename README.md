@@ -1,4 +1,4 @@
-# neuralnetwork-lightcurve-param-estimator
+# Neural Network Lightcurve Parameter Estimator
 
 P. Hauff
 Version 1.0
