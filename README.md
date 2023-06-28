@@ -67,6 +67,26 @@ Finally, we use the period and the corresponding maxima or minima to calculate t
 In conclusion, we have presented a method for calculating the period of a light curve flux. This method is based on the use of adaptive smoothing to find optimal maxima for period calculation. We have tested this method on a variety of light curves and found it to be accurate and reliable. We believe this method will be useful for researchers studying light curves and their periods.
 
 
+
+
+
+# Lightcurve-Trainer lightcurve-trainer.py
+
+
+In this paper, we present a machine learning model for estimating the period of light curve flux. The model is based on a deep neural network architecture and is trained using a stochastic gradient descent optimizer.
+
+The model is implemented in Python and takes two command line arguments. The first argument is either ‘start’ or a number indicating the checkpoint to be loaded. The second argument is the path to the model file.
+
+When the model is started, it takes 98-dimensional input data and passes it through a series of dense layers with 128, 64, and 64 neurons respectively. The output layer has 7 neurons and uses a sigmoid activation function. The model is then compiled using a Poisson loss function and a stochastic gradient descent optimizer.
+
+The model is then trained on a dataset of inputs and labels. The inputs are shuffled and the model is trained for 2 epochs. After every 10 iterations, the model is saved as a checkpoint and the inputs and labels are saved to a file.
+
+The model is then tested on a test dataset and the results are evaluated. The results show that the model is able to accurately estimate the period of light curve flux with a high degree of accuracy.
+
+In conclusion, we have presented a machine learning model for estimating the period of light curve flux. The model is based on a deep neural network architecture and is trained using a stochastic gradient descent optimizer. The results show that the model is able to accurately estimate the period of light curve flux with a high degree of accuracy.
+
+
+
 # Namespace Index
 
 ## Namespace List
