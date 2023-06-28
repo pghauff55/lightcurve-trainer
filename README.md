@@ -8,13 +8,19 @@ Version 1.0
 
 # Parameters
 Eccentricity1
+
 Eccentricity2
+
 Phase
+
 Amplitude
+
 [Amplitude,e1,e2,phase]
+
 <div align="center">
     <img src="Screenshot 2023-06-28 122220.png" width="1200px"</img> 
 </div>
+
 # 5.3 Elliptical Orbit Equation
 Elliptical orbits are calculated using the Elliptical Orbit Equation which consists of two components, the radius of the orbit vector, r(θ(t)) see Figure 10 (Carroll B., 2017) Figure 11 (Carroll B., 2017)and Figure 12 (Carroll B., 2017), and the eccentricity of the orbit. The radius, r(θ(t)), is the distance from the focus to the orbit at any given time. The eccentricity of the orbit is a measure of the difference between the furthest and closest points in an orbit from the focus. With these components, the equation can accurately calculate the distance and velocities of any orbiting body. It can also be utilised to calculate the difference between the radii of two elliptical orbits, r2(t)-r1(t-t_offset). Python code was utilised to calculate this equation, which can be used across many types of pulsating stars, such as high amplitude delta Scuti (HADS). For example, it can be utilised to calculate the apparent magnitude, period, distance calculation of Cephids, as well as classify stars, such as EH Lib, as a double radial pulsator. 
 # 5.3.1 Radius of Orbit
